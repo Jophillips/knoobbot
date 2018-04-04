@@ -1,2 +1,2 @@
 # knoobbot
-This is shit, dont look at it, it might give you cancer
+Discord and Twitch Bot written in Node.js for twitch channel twitch.tv/knooblord http://www.twitch.tv/knooblord
