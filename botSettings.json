@@ -1,0 +1,10 @@
+{
+	"token": "discord bot token",
+	"prefix": "!",
+	"defaultKnoobles": 100,
+	"username": "twtch bot username username",
+	"tokent": "twitch oauth code EX: oauth:84mf8ak2l99hxig8f865dj2j1lk",
+	"twitchchannel": "twitch channel you want the bot ot be in",
+	"modRole": "Moderator",
+	"subRole": "Twitch Subscriber"
+}
