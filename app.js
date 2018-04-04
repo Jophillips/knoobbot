@@ -524,6 +524,11 @@ client.on('message', message => {
 			message.channel.send(`<@${id}> Version: ${version}`);
 			break;
 
+
+		case "help":
+			message.channel.send('<@' + id + '>' + '``` **!knoobles help** to learn how to use your knoobles. \r\n **!dice <number>** to gamble your knoobles. \r\n **!betcheck** To check how much you have gambled in total. \r\n **!betcheck <@user>** To check how much another user has gambled in total. \r\n **!8ball <question>** to ask 8ball a question. \r\n For more information ask Jeffro.```');
+			break;	
+
 		case "betcheck":
 			if (args.length < 1) {
 				if (userData.totalbet === undefined) {
